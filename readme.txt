@@ -19,3 +19,4 @@ CREATE TABLE readings (
     created_at TIMESTAMP NOT NULL DEFAULT NOW()
 );
 \q
+docker compose up --build
